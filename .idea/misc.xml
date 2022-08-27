@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/coearners/Abacus/AbacusView/src/main/res/layout-land/layout_abacus_view.xml" value="0.21252204585537918" />
+        <entry key="..\:/coearners/Abacus/AbacusView/src/main/res/layout-sw500dp/layout_abacus_view.xml" value="0.18828125" />
+        <entry key="..\:/coearners/Abacus/AbacusView/src/main/res/layout-sw600dp/layout_abacus_view.xml" value="0.18828125" />
+        <entry key="..\:/coearners/Abacus/AbacusView/src/main/res/layout/layout_abacus_view.xml" value="0.25104166666666666" />
+        <entry key="..\:/coearners/Abacus/AbacusView/src/main/res/layout/layout_rod.xml" value="0.20598290598290597" />
+        <entry key="..\:/coearners/Abacus/app/src/main/res/layout/activity_main.xml" value="0.2375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

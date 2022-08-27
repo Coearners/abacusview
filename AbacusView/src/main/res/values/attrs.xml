@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AbacusView">
+        <attr name="intValue" format="integer" />
+        <attr name="decValue" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="RodView">
+        <attr name="unit" format="integer" />
+        <attr name="rodColor" format="enum">
+            <enum name="white" value="0" />
+            <enum name="blue" value="1"/>
+            <enum name="alice_blue" value="2" />
+            <enum name="red" value="3" />
+            <enum name="green" value="4" />
+            <enum name="yellow" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="BeadView">
+        <attr name="beadValue" format="integer" />
+        <attr name="beadId" format="integer"/>
+    </declare-styleable>
+</resources>
