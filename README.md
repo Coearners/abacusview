@@ -22,12 +22,12 @@ wherever you need.
 ## Installation
 
 To start using AbacusView in your project, just add it to dependecy
-and add `com.coearners.abacus:AbacusView:1.0.0-beta01`
+and add `com.coearners.android:AbacusView:1.0.0-beta01`
 
 ```gradle
   dependencies{
   ..
-    implementation 'com.coearners.abacus:AbacusView:1.0.0-beta01'
+    implementation 'com.coearners.android:AbacusView:1.0.0-beta01'
   ..
   }
 ```
@@ -47,7 +47,7 @@ the width of the width and height of AbacusView according to screen size.
 The changes made in `layout_height` property doesn't change the scale of the controls.
 The default and fixed height for AbacusView is `200sp`.
 ```xml
-<com.coearners.abacus.AbacusView
+<com.coearners.android.abacusview.AbacusView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
 ```
