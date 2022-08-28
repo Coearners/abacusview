@@ -3,6 +3,12 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/65446143/187054125-1367669a-6eef-4a9b-8107-9e24a844d59e.png" />
+</p>
+![abacus_view_icon](https://user-images.githubusercontent.com/65446143/187054125-1367669a-6eef-4a9b-8107-9e24a844d59e.png)
+
+
 Easy abacus control to add in Android Studio Projects.
 The AbacusView provides you prebuilt basic Abacus in your projects
 wherever you need.
