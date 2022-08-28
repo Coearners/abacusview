@@ -13,81 +13,108 @@
         android:background="@drawable/ic_beam"
         android:layout_alignParentTop="true"
         android:layout_marginTop="70sp"/>
-    <LinearLayout
+    <GridLayout
         android:layout_width="match_parent"
         android:id="@+id/layoutRods"
         android:layout_centerHorizontal="true"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:weightSum="9"
+        android:columnCount="9"
+        android:rowCount="1"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:paddingStart="23sp"
-        android:paddingEnd="10sp"
         android:orientation="horizontal">
         <com.coearners.android.abacusview.RodView
             android:id="@+id/firstRod"
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             app:rodColor="green"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
             app:rodColor="alice_blue"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:gravity="center"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
             app:rodColor="yellow"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
             app:rodColor="red"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             android:layout_height="wrap_content"
             app:rodColor="blue"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             app:rodColor="white"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:layout_columnWeight="1"
             android:layout_height="wrap_content"
+            android:gravity="center"
             app:rodColor="green"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:layout_columnWeight="1"
+            android:gravity="center"
             app:rodColor="alice_blue"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
         <com.coearners.android.abacusview.RodView
             android:layout_width="0sp"
-            android:layout_weight="1"
+            android:layout_row="0"
+            android:layout_column="8"
+            android:layout_columnWeight="1"
             app:rodColor="yellow"
+            android:gravity="center"
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:layout_marginBottom="8sp"/>
-    </LinearLayout>
+    </GridLayout>
 </RelativeLayout>
