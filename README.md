@@ -14,7 +14,9 @@ wherever you need.
 
 
 ## Demo
-![abacus-view-demo](https://user-images.githubusercontent.com/65446143/187054278-ab206378-d308-49a9-ac30-2c91f1b42ecf.gif)
+<p align="center"
+   <img src="https://user-images.githubusercontent.com/65446143/187054278-ab206378-d308-49a9-ac30-2c91f1b42ecf.gif" width="70%" height="70%"/>
+ </p>
 
 
 ## Installation
