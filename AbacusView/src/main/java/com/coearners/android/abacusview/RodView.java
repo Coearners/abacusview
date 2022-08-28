@@ -31,8 +31,12 @@ public class RodView extends RelativeLayout {
     public RodView(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
-        this.mediaPlayer = MediaPlayer.create(context, R.raw.bead_move);
-        TypedArray a = context.getTheme().obtainStyledAttributes(attrs,
+        try{
+            this.mediaPlayer = MediaPlayer.create(context, R.raw.bead_move);
+        }catch (UnsupportedOperationException e){
+            this.mediaPlayer = null;
+        }
+        TypedArray a = context.obtainStyledAttributes(attrs,
                 R.styleable.RodView, 0, 0);
         int color;
         try{
@@ -64,7 +68,7 @@ public class RodView extends RelativeLayout {
         this.beamLocY = beamLocY;
         this.margin = margin;
         heavenBeadView.setOnClickListener(v -> {
-            mediaPlayer.start();
+            playSound();
             if(heavenBeadView.getTouchingBeam()){
                 heavenBeadView.scrollToTop(beamLocY, margin);
                 this.value -= 5;
@@ -77,7 +81,7 @@ public class RodView extends RelativeLayout {
             EarthBeadView currentBead = this.findViewById(earthBeadViews[i]);
             int finalI = i;
             currentBead.setOnClickListener(v -> {
-                mediaPlayer.start();
+                playSound();
                 if(currentBead.getTouchingBeam()){
                     for(int j = -1; j < finalI; j++){
                         EarthBeadView nextBead = findViewById(earthBeadViews[j+1]);
@@ -109,7 +113,7 @@ public class RodView extends RelativeLayout {
     }
 
     public void reset(){
-        mediaPlayer.start();
+        playSound();
         if(heavenBeadView.getTouchingBeam()){
             heavenBeadView.scrollToTop(beamLocY, margin);
             heavenBeadView.setTouchingBeam(false);
@@ -147,6 +151,12 @@ public class RodView extends RelativeLayout {
         ((HeavenBeadView)findViewById(R.id.heavenBead)).setImageDrawable(ContextCompat.getDrawable(context, colors[color]));
         for(int beadId: earthBeadViews){
             ((EarthBeadView)findViewById(beadId)).setImageDrawable(ContextCompat.getDrawable(context, colors[color]));
+        }
+    }
+
+    private void playSound(){
+        if(this.mediaPlayer != null){
+            this.mediaPlayer.start();
         }
     }
 }
