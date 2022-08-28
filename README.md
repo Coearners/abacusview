@@ -86,3 +86,7 @@ to their default positions
 abacusView.reset();
 ...
 ```
+
+# License
+This application licensed under the terms of the [Apache Software License, Version 2.0][Apache Software License, Version 2.0]. [Apache Software License, Version 2.0]:
+http://www.apache.org/licenses/LICENSE-2.0.txt
