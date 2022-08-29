@@ -22,14 +22,14 @@ wherever you need.
 ## Installation
 
 To start using AbacusView in your project, just add it to dependecy
-and add `com.coearners.android:AbacusView:1.0.0-beta01`
+and add `com.coearners.android:AbacusView:1.0.0-rc01`
 
 ### Apache Maven
 ```xml
 <dependency>
   <groupId>com.coearners.android</groupId>
   <artifactId>AbacusView</artifactId>
-  <version>1.0.0-beta01</version>
+  <version>1.0.0-rc01</version>
   <type>aar</type>
 </dependency>
 ```
@@ -38,7 +38,7 @@ and add `com.coearners.android:AbacusView:1.0.0-beta01`
 ```gradle
   dependencies{
   ..
-    implementation 'com.coearners.android:AbacusView:1.0.0-beta01'
+    implementation 'com.coearners.android:AbacusView:1.0.0-rc01'
   ..
   }
 ```
@@ -49,7 +49,7 @@ and add `com.coearners.android:AbacusView:1.0.0-beta01`
 
 
 ## Maven Repository
-[Maven Repository Link](https://search.maven.org/artifact/com.coearners.android/AbacusView/1.0.0-beta01/aar)
+[Maven Repository Link](https://search.maven.org/artifact/com.coearners.android/AbacusView/1.0.0-rc01/aar)
 
 ## Usage/Examples
 
