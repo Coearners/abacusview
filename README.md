@@ -45,7 +45,7 @@ and add `com.coearners.android:AbacusView:1.0.0-rc01`
     
 ## Documentation
 
-[Documentation and API Reference]()
+[Documentation and API Reference](https://github.com/Coearners/abacusview/blob/master/README.md)
 
 
 ## Maven Repository
