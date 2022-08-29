@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.GridLayout;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
@@ -13,7 +14,7 @@ import androidx.annotation.Nullable;
 import java.io.Serializable;
 
 public class AbacusView extends RelativeLayout implements Serializable {
-    LinearLayout layoutRods;
+    GridLayout layoutRods;
 
     public AbacusView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
